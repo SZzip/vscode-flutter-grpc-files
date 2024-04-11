@@ -1,0 +1,12 @@
+// targetPath = 'lib/infrastructure/datasources/${model_name}_datasource.dart';
+
+import 'package:flutter_institution/infrastructure/models/${model_name}_model.dart';
+import 'package:flutter_institution/src/generated/${model_name}.pbgrpc.dart';
+
+abstract class ${camel_case_model_name}DataSource {
+  // ignore: unused_field
+  final ${camel_case_model_name}ServiceClient _client;
+
+  ${camel_case_model_name}DataSource(this._client);
+  ${service_methods}
+}

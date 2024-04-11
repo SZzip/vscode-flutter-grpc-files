@@ -167,6 +167,10 @@
       {
         "command": "extension.addFlutter2zIndex",
         "title": "[FF] New Index"
+      },
+      {
+        "command": "extension.addFlutter2gRPCDataSource",
+        "title": "[FF] New gRPC DataSource"
       }
     ],
     "menus": {
@@ -240,6 +244,11 @@
           "when": "config.flutter-files.menu.index",
           "command": "extension.addFlutter2zIndex",
           "group": "3Flutter Index"
+        },
+        {
+          "when": "config.flutter-files.menu.smallpack",
+          "command": "extension.addFlutter2gRPCDataSource",
+          "group": "4Flutter gRPC Pack"
         }
       ]
     }

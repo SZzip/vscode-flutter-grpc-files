@@ -13,4 +13,5 @@ export enum CommandType {
   Screen = 'extension.addFlutter2Screen',
   Templates = 'extension.addFlutter2zTemplates',
   Index = 'extension.addFlutter2zIndex',
+  GrpcDataSource = 'extension.addFlutter2GrpcDataSource',
 }

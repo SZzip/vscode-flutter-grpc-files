@@ -6,7 +6,9 @@
       "commands": [
         {
           "name": "[FF] New Big Pack Bloc",
-          "templates": ["*"],
+          "templates": [
+            "*"
+          ],
           "key": "bigpack",
           "files": [
             "bloc",
@@ -22,59 +24,117 @@
         },
         {
           "name": "[FF] New Small Pack Bloc",
-          "templates": ["*"],
+          "templates": [
+            "*"
+          ],
           "key": "smallpack",
-          "files": ["bloc", "event", "index", "page", "screen", "state"]
+          "files": [
+            "bloc",
+            "event",
+            "index",
+            "page",
+            "screen",
+            "state"
+          ]
         },
         {
           "name": "[FF] New Bloc",
-          "templates": ["*"],
-          "files": ["bloc"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "bloc"
+          ]
         },
         {
           "name": "[FF] New Event",
-          "templates": ["*"],
-          "files": ["event"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "event"
+          ]
         },
         {
           "name": "[FF] New Model",
-          "templates": ["*"],
-          "files": ["model"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "model"
+          ]
         },
         {
           "name": "[FF] New Page",
-          "templates": ["*"],
-          "files": ["page"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "page"
+          ]
         },
         {
           "name": "[FF] New Provider",
-          "templates": ["*"],
-          "files": ["provider"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "provider"
+          ]
         },
         {
           "name": "[FF] New Repository",
-          "templates": ["*"],
-          "files": ["repository"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "repository"
+          ]
         },
         {
           "name": "[FF] New Screen",
-          "templates": ["*"],
-          "files": ["screen"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "screen"
+          ]
         },
         {
           "name": "[FF] New State",
-          "templates": ["*"],
-          "files": ["state"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "state"
+          ]
         },
         {
           "name": "[FF] New Index",
-          "templates": ["*"],
-          "files": ["index"]
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "index"
+          ]
         },
         {
           "name": "[FF] New Navigate(Navme)",
-          "templates": ["navigate"],
-          "files": ["navigate"]
+          "templates": [
+            "navigate"
+          ],
+          "files": [
+            "navigate"
+          ]
+        },
+        {
+          "name": "[FF] New gRPC DataSource",
+          "templates": [
+            "*"
+          ],
+          "files": [
+            "grpc_data_source"
+          ]
         }
       ]
     }

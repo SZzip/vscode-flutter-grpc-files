@@ -12,4 +12,5 @@ export enum ResourceType {
   State = 'state',
   Index = 'index',
   Templates = 'Templates',
+  GrpcDataSource = 'GrpcDataSource',
 }
